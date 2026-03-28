@@ -14,6 +14,7 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    padding-bottom: 20px;
   
 }
 .rows{
@@ -87,6 +88,7 @@ h1{
 .btn-ghost:visited,
 .btn-ghost:link
 {
+    background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
 }
@@ -333,6 +335,48 @@ blockquote::before {
     top: 0;
     left: -3px;
 }
+.section-plans {
+    background-color: #f4f4f4;
+}
+.plan-box {
+    background-color: #fff;
+    border-radius: 10px;
+    width:90%;
+    margin-left: 9%;
+}
+.plan-box div {
+    padding:15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price {
+    font-size: 150%;
+    margin-bottom: 10px;
+    font-weight: 80;
+    color: #e67e22;
+}
+.plan-price-meal {
+    font-size: 60%;
 
+}
+.plan-price span {
+    font-size: 20%;
+    font-weight: 200;
+}
+.plan-box ul {
+    list-style: none;
+}
+.plan-box ul li {
+    padding: 5px 0;
+
+}
+.plan-box div:last-child {
+    border: 0;
+    text-align: center;
+}
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
 
