@@ -24,10 +24,19 @@ body {
     flex-direction: row;
     max-width: 1140px;
     margin: 0 auto;
-    /* text-align: center;
-    align-items: center; */
+    
+     /* text-align: center;
+    align-items: center;  */
   
 
+}
+@media(max-width: 600px) {
+    .rows {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 .row2 {
     max-width: 1140px;
@@ -69,6 +78,13 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+@media(max-width: 600px) {
+    .hero-text-box {
+        width: 90%;
+        font-size:small;
+    }
+
 }
 .btn:link,
 .btn:visited,
@@ -193,6 +209,17 @@ h3 {
     color: #e67e22;
     margin-bottom: 10px;
 }
+@media(max-width: 600px) {
+    .cluster {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .para {
+        text-align: left;
+    }
+}
 .para{
     font-size:15px;
     padding: 8px;
@@ -251,6 +278,7 @@ section-features .long-copy {
     margin-top: 70px;
 
 }
+
 .app-screen {
     box-shadow: 10px 10px 5px #aaaaaa ;
    width: 50%;
